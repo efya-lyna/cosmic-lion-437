@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-application
+    name: Ghali
     runtime: docker
     region: Frankfurt 
     plan: free
