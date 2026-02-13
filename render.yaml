@@ -10,5 +10,5 @@ services:
         value: "RGNK~SpCmaWzE"
       - key: DATABASE_URL
         fromDatabase:
-          name: my-database
+          name: postgresql://yagami_light_user:ZwfM4340Tf9EDpSQZXn9GSr4zXu9Ymhb@dpg-d645lpvfte5s73fv5ddg-a.frankfurt-postgres.render.com/yagami_light
           property: connectionString
