@@ -2,7 +2,7 @@ services:
   - type: web
     name: my-application
     runtime: docker
-    region: oregon
+    region: Frankfurt 
     plan: free
     dockerfilePath: ./Dockerfile
     envVars:
